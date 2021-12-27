@@ -25,6 +25,7 @@ public class Input_Catcher : MonoBehaviour
         // Add the proper command/function pairs from Player_Control.cs to the dictionary
         funcList.Add("walk", commands.Walk);
         funcList.Add("turn", commands.Turn);
+        funcList.Add("jump", commands.Jump);
     }
 
     // Update is called once per frame
